@@ -1,0 +1,311 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="keywords" content="页面关键词">
+    <meta name="description" content="页面描述内容">
+    <meta name="author" content="姚骏骅">
+    <meta name="renderer" content="webkit">
+    <title>教师工作坊-三墩小学工作坊</title>
+    <link href="resource/icon/favicon.ico" rel="shortcut icon">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/front.css" rel="stylesheet">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.xbox.js"></script>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]><script src="js/html5shiv.min.js"></script> <script src="js/respond.min.js"></script><![endif]-->
+</head>
+<body>
+    <!--头部开始-->
+    <div id="head" class="head">
+        <div class="head-inner">
+            <div class="logo">
+            </div>
+            <div class="head-nav">
+                <a href="ProjectList.html" title="学习空间" id="studyzone" class="studyzone"><i class="fixpng"></i><span>课程学习</span></a>
+                <a href="Workshop.html" title="工作坊" id="workspace" class="workspace active"><i class="fixpng"></i><span>工作坊</span></a>
+                <a href="SchoolZone.html" title="学校社区" id="schoolzone" class="schoolzone"><i class="fixpng"></i><span>学校社区</span></a>
+                <a href="Home.html" title="个人空间" id="personalzone" class="personalzone"><i class="fixpng"></i><span>个人空间</span></a>
+            </div>
+            <div class="head-welcome">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true">&nbsp;</span><span class="badge">4</span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="RNFPage.html"><span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span> &nbsp;浙江省能力提升工程第四期简报</a></li>
+                            <li class="divider"></li>
+                            <li><a href="RNFPage.html"><span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span> &nbsp;浙江省能力提升工程第三期简报</a></li>
+                            <li class="divider"></li>
+                            <li><a href="RNFPage.html"><span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span> &nbsp;浙江省能力提升工程第二期简报</a></li>
+                            <li class="divider"></li>
+                            <li><a href="RNFPage.html"><span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span> &nbsp;浙江省能力提升工程第一期简报</a></li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="RNFPage.html" class="btn btn-default btn-80" id="A1"><i class="glyphicon glyphicon-option-horizontal"></i>&nbsp;显示更多</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span><span class="badge">4</span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="PrivateMessage.html"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span> 一封来自 <span class="green">王小明</span>  的私信</a></li>
+                            <li class="divider"></li>
+                            <li><a href="PrivateMessage.html"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span> 一封来自 <span class="green">丁小兰</span>的私信</a></li>
+                            <li class="divider"></li>
+                            <li><a href="PrivateMessage.html"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span> 一封来自 <span class="green">陈萌</span> 的私信</a></li>
+                            <li class="divider"></li>
+                            <li><a href="PrivateMessage.html"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span> 一封来自 <span class="green">朱晓平</span> 的私信</a></li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="PrivateMessage.html" class="btn btn-default btn-80" id="loadMoreMessage"><i class="glyphicon glyphicon-option-horizontal"></i>&nbsp;显示更多</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-bell" aria-hidden="true">&nbsp;</span><span class="badge">2</span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="SysMessage.html#m1"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> &nbsp;请填写完善个人信息，去填写 >>></a></li>
+                            <li class="divider"></li>
+                            <li><a href="SysMessage.html#m2"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> &nbsp;您关注的 CSDN博客频道，用户好评率为 89%，快来看看吧！>>></a></li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="SysMessage.html" class="btn btn-default btn-80" id="loadMoreBell" data-loading-text="加载中…"><i class="glyphicon glyphicon-option-horizontal"></i>&nbsp;显示更多</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Domata <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="PersonalInfo.html"><span class="glyphicon glyphicon-user glyphicon-user-red" aria-hidden="true"></span> 个人信息</a></li>
+                            <li class="divider"></li>
+                            <li><a href="Signin.html"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> 退出</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--头部结束-->
+    <div class="workshop-facade">
+        <div class="workshop-unibg">
+            <div class="workshop-pic">
+                <div class="workshop-unimg"></div>
+                <div class="workshop-avatar-wrap f-pr">
+                    <img class="workshop-avatar" src="images/default-workshoplogo.png" width="150" height="150" alt="北京大学">
+                </div>
+            </div>
+        </div>
+        <div class="workshop-intro">
+            <h4>三墩小学能力提升工作坊</h4>
+            <p>为全面提升我校教师信息技术应用能力，特开设本坊用以交流。</p>
+        </div>
+    </div>
+    <div class="content-wrap">
+        <div class="content-nav-wrap">
+            <ul class="nav nav-pills nav-stacked custom-nav-green">
+                <li role="presentation"><a href="WorkshopOne.html">动态</a></li>
+                <li role="presentation" class="active"><a href="WorkshopSchedule.html">研修计划</a></li>
+                <li role="presentation"><a href="WorkshopExperience.html">研修心得</a></li>
+                <li role="presentation"><a href="WorkshopForum.html">讨论区</a></li>
+                <li role="presentation"><a href="WorkshopResource.html">研修资源</a></li>
+                <li role="presentation"><a href="WorkshopMember.html">成员</a></li>
+            </ul>
+        </div>
+        <div class="content-col">
+            <div class="content-block">
+                <div class="content-block-body">
+                    <p>上次任务为“上传个人研修计划” </p>
+                    <button class="btn btn-success">继续学习</button>
+                </div>
+            </div>
+            <div class="content-block">
+                <div class="content-block-tit clearfix">
+                    <h4>目录</h4>
+                </div>
+                <div class="content-block-body">
+                    <ul class="schedule">
+                        <li class="stage">
+                            <div class="stage-tit"><i class="glyphicon glyphicon-triangle-bottom"></i>&nbsp;项目启动于引导</div>
+                            <ul class="schedule children">
+                                <li class="stage">
+                                    <div class="stage-tit"><i class="glyphicon glyphicon-triangle-bottom"></i>&nbsp;熟悉网络研修平台</div>
+                                    <ul class="schedule children">
+                                        <li class="task dead">
+                                            <div class="task-tit clearfix">
+                                                <span class="task-status"></span>
+                                                <span class="task-label">下载学员手册</span>
+                                                <span class="task-mate task-deadline">已截止</span>
+                                                <span class="task-mate task-assessment">考核任务</span>
+                                                <span class="task-act">
+                                                    <i class="glyphicon glyphicon-save"></i>
+                                                </span>
+                                                <a href="TaskViewOfDownloadResource.html" class="btn btn-success btn-sm task-todo">开始学习</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="stage">
+                                    <div class="stage-tit"><i class="glyphicon glyphicon-triangle-bottom"></i>&nbsp;学习综合性课程</div>
+                                </li>
+                                <li class="stage">
+                                    <div class="stage-tit"><i class="glyphicon glyphicon-triangle-bottom"></i>&nbsp;制定个人研修计划</div>
+                                    <ul class="schedule children">
+                                        <li class="task complete">
+                                            <div class="task-tit clearfix">
+                                                <span class="task-status"></span>
+                                                <span class="task-label">下载个人研修计划模版</span>
+                                                <span class="task-act">
+                                                    <i class="glyphicon glyphicon-save"></i>
+                                                </span>
+                                                <a href="TaskViewOfDownloadResource.html" class="btn btn-success btn-sm task-todo">开始学习</a>
+                                            </div>
+                                        </li>
+                                        <li class="task dead complete">
+                                            <div class="task-tit clearfix">
+                                                <span class="task-status"></span>
+                                                <span class="task-label">上传个人研修计划</span>
+                                                <span class="task-mate task-deadline">已截止</span>
+                                                <span class="task-mate task-assessment">考核任务</span>
+                                                <span class="task-act">
+                                                    <i class="glyphicon glyphicon-pencil"></i>&nbsp;
+                                                    <small class="text-muted">60分</small>
+                                                </span>
+                                                <a href="TaskViewOfHomework.html" class="btn btn-success btn-sm task-todo">开始学习</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="stage">
+                            <div class="stage-tit"><i class="glyphicon glyphicon-triangle-bottom"></i>&nbsp;教学任务设计与准备</div>
+                            <ul class="schedule children">
+                                <li class="stage">
+                                    <div class="stage-tit"><i class="glyphicon glyphicon-triangle-bottom"></i>&nbsp;选择教学实践课程单元</div>
+                                    <ul class="schedule children">
+                                        <li class="task">
+                                            <div class="task-tit clearfix">
+                                                <span class="task-status"></span>
+                                                <span class="task-label">选择个人信息技术应用实践的教学主题</span>
+                                                <span class="task-mate task-deadline">2015/06/16 截止</span>
+                                                <span class="task-mate task-assessment">考核任务</span>
+                                                <span class="task-act">
+                                                    <i class="glyphicon glyphicon-comment"></i>
+                                                </span>
+                                                <a href="TaskViewOfDiscuss.html" class="btn btn-success btn-sm task-todo">开始学习</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="stage">
+                                    <div class="stage-tit"><i class="glyphicon glyphicon-triangle-bottom"></i>&nbsp;教学设计及课件制作</div>
+                                    <ul class="schedule children">
+                                        <li class="task working">
+                                            <div class="task-tit clearfix">
+                                                <span class="task-status"></span>
+                                                <span class="task-label">上传个人教学设计方案</span>
+                                                <span class="task-mate task-deadline">2015/06/19 截止</span>
+                                                <span class="task-act">
+                                                    <i class="glyphicon glyphicon-pencil"></i>
+                                                </span>
+                                                <a href="###" class="btn btn-success btn-sm task-todo">开始学习</a>
+                                            </div>
+                                        </li>
+                                        <li class="task">
+                                            <div class="task-tit clearfix">
+                                                <span class="task-status"></span>
+                                                <span class="task-label">上传配套的教学课件</span>
+                                                <span class="task-act">
+                                                    <i class="glyphicon glyphicon-pencil"></i>
+                                                </span>
+                                                <a href="###" class="btn btn-success btn-sm task-todo">开始学习</a>
+                                            </div>
+                                        </li>
+                                        <li class="task">
+                                            <div class="task-tit clearfix">
+                                                <span class="task-status"></span>
+                                                <span class="task-label">教学设计模板</span>
+                                                <span class="task-act">
+                                                    <i class="glyphicon glyphicon-save"></i>
+                                                </span>
+                                                <a href="###" class="btn btn-success btn-sm task-todo">开始学习</a>
+                                            </div>
+                                        </li>
+                                        <li class="task">
+                                            <div class="task-tit clearfix">
+                                                <span class="task-status"></span>
+                                                <span class="task-label">《三角形三边关系》信息化教学设计（小学数学）</span>
+                                                <span class="task-act">
+                                                    <i class="glyphicon glyphicon-book"></i>&nbsp;
+                                                    <small class="text-muted">5页</small>
+                                                </span>
+                                                <a href="TaskViewOfDocument.html" class="btn btn-success btn-sm task-todo">开始学习</a>
+                                            </div>
+                                        </li>
+                                        <li class="task">
+                                            <div class="task-tit clearfix">
+                                                <span class="task-status"></span>
+                                                <span class="task-label">《发愤立志》信息化教学设计电子白板运用（小学语文）</span>
+                                                <span class="task-act">
+                                                    <i class="glyphicon glyphicon-film"></i>&nbsp;
+                                                    <small class="text-muted">26:38</small>
+                                                </span>
+                                                <a href="TaskViewOfVideo.html" class="btn btn-success btn-sm task-todo">开始学习</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="stage">
+                                    <div class="stage-tit"><i class="glyphicon glyphicon-triangle-bottom"></i>&nbsp;教学设计交流与展示</div>
+                                    <ul class="schedule children">
+                                        <li class="task">
+                                            <div class="task-tit clearfix">
+                                                <span class="task-status"></span>
+                                                <span class="task-label">第一次教学设计交流</span>
+                                                <span class="task-act">
+                                                    <i class="glyphicon glyphicon-comment"></i>
+                                                </span>
+                                                <a href="###" class="btn btn-success btn-sm task-todo">开始学习</a>
+                                            </div>
+                                        </li>
+                                        <li class="task">
+                                            <div class="task-tit clearfix">
+                                                <span class="task-status"></span>
+                                                <span class="task-label">提交活动记录2次</span>
+                                                <span class="task-act">
+                                                    <i class="glyphicon glyphicon-pencil"></i>
+                                                </span>
+                                                <a href="###" class="btn btn-success btn-sm task-todo">开始学习</a>
+                                            </div>
+                                        </li>
+                                        <li class="task">
+                                            <div class="task-tit clearfix">
+                                                <span class="task-status"></span>
+                                                <span class="task-label">第二次教学设计交流</span>
+                                                <span class="task-act">
+                                                    <i class="glyphicon glyphicon-comment"></i>
+                                                </span>
+                                                <a href="###" class="btn btn-success btn-sm task-todo">开始学习</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $('.task-tit').on('mouseover', function () {
+            $('.task-todo', this).show();
+        }).on('mouseout', function () {
+            $('.task-todo', this).hide();
+        });
+    </script>
+</body>
+</html>
